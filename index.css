@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  background-color: #f19fa8;
+  color: #2a2a63;
+}
+
+.work-exp {
+  flex-direction: column;
+}
+
+.border-bottom {
+  border: 5px;
+}
+
+.margin-desktop {
+  margin: 20px 0;
+}
+
+.skills-svg svg {
+  margin: 0 6px;
+}
+
+@media (min-width: 768px) {
+  .work-exp {
+    flex-direction: row;
+  }
+
+  .border-right {
+    border-right: 2px solid #2a2a63;
+  }
+
+  .margin-desktop {
+    margin: 40px 0;
+  }
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.bulb {
+  border: 3px solid #2a2a63;
+  height: 60px;
+  width: 60px;
+  padding: 8px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.round {
+  background-color: #2a2a63;
+  color: #f19fa8;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  padding: 8px;
+  border-image: #2a2a63;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
